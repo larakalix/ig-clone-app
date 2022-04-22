@@ -9,9 +9,13 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            montserrat: ["Montserrat", "sans-serif"],
+            noto: ["Noto Sans", "sans-serif"],
         },
-        extend: {},
+        extend: {
+            colors: {
+                "pink": "#EA4C89",
+            }
+        },
     },
     plugins: [],
     darkMode: 'class',
