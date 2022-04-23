@@ -13,7 +13,7 @@ export const NavbarItem = ({
                 {ItemIcon ? (
                     <ItemIcon className="mr-5 text-[1.2rem] text-item-black group-hover:text-pink transition-colors" />
                 ) : null}
-                <div className="flex items-center justify-between w-full">
+                <div className="flex items-center justify-between w-full font-noto font-semibold">
                     <span>{label}</span>
                     {counter && counter > 0 ? (
                         <span className="text-gray-400 text-[0.8rem]">

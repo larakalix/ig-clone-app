@@ -12,23 +12,24 @@ interface Props {
 export const UserCircle = ({
     alt,
     thumbnail,
-    className,
+    className = "",
     type = Size.normal,
 }: Props) => {
     const styles = clsx({
-        ["w-[4rem] p-1"]: type == Size.normal,
-        ["w-[6.5rem] p-2"]: type == Size.large,
+        ["w-[3rem] p-[0.2rem]"]: type === Size.small,
+        ["w-[4rem] p-1"]: type === Size.normal,
+        ["w-[6.5rem] p-2"]: type === Size.large,
     });
 
     return (
         <div
-            className={`rounded-full border-2 border-pink flex items-center justify-center ${className} ${styles}`}
+            className={`${styles} h-auto rounded-full border-2 border-pink flex items-center justify-center ${className}`}
         >
             <Image
                 src={thumbnail}
                 alt={alt}
-                width="80"
-                height="80"
+                width="100%"
+                height="100%"
                 className="rounded-full"
             />
         </div>

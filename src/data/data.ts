@@ -1,3 +1,4 @@
+import { useId } from "react";
 import {
     BiGridAlt,
     BiBarChartAlt2,
@@ -7,6 +8,7 @@ import {
     BiSearch,
 } from "react-icons/bi";
 import { NavItem } from "../models/NavItem";
+import { Story } from "../models/Stories";
 import { User } from "../models/Users";
 
 export const NavbarItems: NavItem[] = [
@@ -45,6 +47,7 @@ export const NavbarItems: NavItem[] = [
 ];
 
 export const Users: User[] = [
+    // 0
     {
         id: "ukikalix",
         isVerified: false,
@@ -56,6 +59,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650648908-ukikalix.jpg?auto=format&w=300",
     },
+    // 1
     {
         id: "soymemovillegas",
         isVerified: true,
@@ -67,6 +71,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650648291-soymemovillegas.jpg?auto=format&w=300",
     },
+    // 2
     {
         id: "codemyjourney",
         isVerified: false,
@@ -78,6 +83,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650648509-codemyjourney.jpg?auto=format&w=300",
     },
+    // 3
     {
         id: "ofmonstersandmen",
         isVerified: true,
@@ -89,6 +95,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650648621-ofmonstersandmen.jpg?auto=format&w=300",
     },
+    // 4
     {
         id: "ninja",
         isVerified: true,
@@ -100,6 +107,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650648721-ninja.jpg?auto=format&w=300",
     },
+    // 5
     {
         id: "uix.nerd",
         isVerified: false,
@@ -111,6 +119,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650648998-uixnerd.jpg?auto=format&w=300",
     },
+    // 6
     {
         id: "alexamansour",
         isVerified: true,
@@ -122,6 +131,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650649071-alexamansour.jpg?auto=format&w=300",
     },
+    // 7
     {
         id: "fortnite",
         isVerified: true,
@@ -133,6 +143,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650649195-fortnite.jpg?auto=format&w=300",
     },
+    // 8
     {
         id: "briloveschick",
         isVerified: false,
@@ -144,6 +155,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650649279-briloveschick.jpg?auto=format&w=300",
     },
+    // 9
     {
         id: "fcbarcelona",
         isVerified: true,
@@ -155,6 +167,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650649380-fcbarcelona.jpg?auto=format&w=300",
     },
+    // 10
     {
         id: "dualipa",
         isVerified: true,
@@ -166,6 +179,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650649689-dualipa.jpg?auto=format&w=300",
     },
+    // 11
     {
         id: "cafelasflores",
         isVerified: false,
@@ -177,6 +191,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650650015-cafelasflores.jpg?auto=format&w=300",
     },
+    // 12
     {
         id: "thedigitalocean",
         isVerified: false,
@@ -187,5 +202,98 @@ export const Users: User[] = [
         followed: 288,
         thumbnail:
             "https://www.datocms-assets.com/50719/1650650130-thedigitalocean.jpg?auto=format&w=300",
+    },
+];
+
+export const StorieItems: Story[] = [
+    {
+        id: useId.toString(),
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650687778-post1.jpg",
+        likes: 230981,
+        comments: 1656,
+        user: Users[5],
+        createdAt: new Date(),
+    },
+    {
+        id: useId.toString(),
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650687783-post2.jpg",
+        likes: 15689,
+        comments: 273,
+        user: Users[6],
+        createdAt: new Date(),
+    },
+    {
+        id: useId.toString(),
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650687787-post3.jpg",
+        likes: 492783,
+        comments: 1025,
+        user: Users[9],
+        createdAt: new Date(),
+    },
+    {
+        id: useId.toString(),
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650687791-post4.jpg",
+        likes: 2931,
+        comments: 246,
+        user: Users[2],
+        createdAt: new Date(),
+    },
+    {
+        id: useId.toString(),
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650687796-post5.jpg",
+        likes: 879,
+        comments: 13,
+        user: Users[5],
+        createdAt: new Date(),
+    },
+    {
+        id: useId.toString(),
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650687800-post6.jpg",
+        likes: 2123,
+        comments: 34,
+        user: Users[12],
+        createdAt: new Date(),
+    },
+    {
+        id: useId.toString(),
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650688308-post8.jpg",
+        likes: 9683,
+        comments: 106,
+        user: Users[1],
+        createdAt: new Date(),
+    },
+    {
+        id: useId.toString(),
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650687805-post7.jpg",
+        likes: 501,
+        comments: 8,
+        user: Users[12],
+        createdAt: new Date(),
+    },
+    {
+        id: useId.toString(),
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650691741-post9.jpg",
+        likes: 23,
+        comments: 1,
+        user: Users[0],
+        createdAt: new Date(),
     },
 ];

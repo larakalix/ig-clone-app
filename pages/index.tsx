@@ -6,10 +6,10 @@ const Home: NextPage = () => {
     return (
         <>
             <Head>
-                <title>IG Clone App</title>
+                <title>Instagram Clone</title>
                 <meta
                     name="description"
-                    content="This app is just for portfolio"
+                    content="This app is just for personal portfolio"
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

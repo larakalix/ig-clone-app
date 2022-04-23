@@ -24,7 +24,7 @@ export const UserBadge = () => {
                 type={Size.large}
             />
 
-            <h2 className="text-gray-500 mt-2 text-[0.8rem]">@{user.id}</h2>
+            <h2 className="text-gray-500 mt-2 text-[0.8rem] font-noto font-medium">@{user.id}</h2>
 
             <ul className="flex flex-row items-center justify-center max-w-full my-6">
                 <UserInfoItem info={parseThousand(user.posts)} label="Posts" />

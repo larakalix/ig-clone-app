@@ -15,6 +15,6 @@ export const Heading = ({ text, type = Size.normal }: Props) => {
     });
 
     return (
-        <h1 className={`text-item-black font-bold mb-4 ${styles}`}>{text}</h1>
+        <h1 className={`text-item-black font-noto font-bold mb-4 ${styles}`}>{text}</h1>
     );
 };
