@@ -8,7 +8,7 @@ export const Feed = () => {
         <div className="w-full mb-8">
             <Heading text="Feed" />
 
-            <div className="masonry sm:masonry-sm md:masonry-md">
+            <div className="masonry masonry-1 sm:md:masonry-1 lg:masonry-2 xl:masonry-3 2xl:masonry-4">
                 {StorieItems.map(({ id, ...props }: Story) => (
                     <StoryBox key={id} id={id} {...props} />
                 ))}

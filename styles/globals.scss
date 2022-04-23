@@ -10,13 +10,21 @@
             column-gap: 1em;
             column-count: 1;
         }
-        .masonry-sm {
+        .masonry-1 {
+            column-gap: 1.1em;
+            column-count: 1;
+        }
+        .masonry-2 {
             column-gap: 1.1em;
             column-count: 2;
         }
-        .masonry-md {
+        .masonry-3 {
             column-gap: 1.2em;
             column-count: 3;
+        }
+        .masonry-4 {
+            column-gap: 1.2em;
+            column-count: 4;
         }
         .break-inside {
             break-inside: avoid;

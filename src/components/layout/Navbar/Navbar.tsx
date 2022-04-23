@@ -12,7 +12,7 @@ export const Navbar = () => {
 
     return (
         <>
-            <div className="fixed top-[1rem] right-[1rem] z-50">
+            <div className="fixed top-[1rem] right-[1rem] z-50 md:hidden">
                 {open ? (
                     <CgClose
                         className="text-[1.3rem] cursor-pointer"
@@ -26,7 +26,7 @@ export const Navbar = () => {
                 )}
             </div>
             <div
-                className={`bg-nav-gray fixed h-screen p-10 flex w-full md:w-[20vw] flex-col items-center ${
+                className={`bg-nav-gray fixed h-screen p-10 flex w-full md:w-[35vw] lg:w-[25vw] xl:w-[20vw] flex-col items-center ${
                     open ? "left-0" : "left-[100%]"
                 } md:left-[unset] z-40`}
             >
