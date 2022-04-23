@@ -1,6 +1,6 @@
 interface Props {
     label: string;
-    info: number;
+    info: string;
 }
 
 export const UserInfoItem = ({ info, label }: Props) => {
