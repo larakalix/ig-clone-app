@@ -1,4 +1,3 @@
-import { useId } from "react";
 import {
     BiGridAlt,
     BiBarChartAlt2,
@@ -207,7 +206,7 @@ export const Users: User[] = [
 
 export const StorieItems: Story[] = [
     {
-        id: useId.toString(),
+        id: "f4139254",
         title: "The first post",
         description: "This is the first post",
         image: "https://www.datocms-assets.com/50719/1650687778-post1.jpg",
@@ -217,7 +216,7 @@ export const StorieItems: Story[] = [
         createdAt: new Date(),
     },
     {
-        id: useId.toString(),
+        id: "7d1a4433",
         title: "The first post",
         description: "This is the first post",
         image: "https://www.datocms-assets.com/50719/1650687783-post2.jpg",
@@ -227,7 +226,7 @@ export const StorieItems: Story[] = [
         createdAt: new Date(),
     },
     {
-        id: useId.toString(),
+        id: "920df3de",
         title: "The first post",
         description: "This is the first post",
         image: "https://www.datocms-assets.com/50719/1650687787-post3.jpg",
@@ -237,7 +236,7 @@ export const StorieItems: Story[] = [
         createdAt: new Date(),
     },
     {
-        id: useId.toString(),
+        id: "f6671724",
         title: "The first post",
         description: "This is the first post",
         image: "https://www.datocms-assets.com/50719/1650687791-post4.jpg",
@@ -247,7 +246,7 @@ export const StorieItems: Story[] = [
         createdAt: new Date(),
     },
     {
-        id: useId.toString(),
+        id: "90b82790",
         title: "The first post",
         description: "This is the first post",
         image: "https://www.datocms-assets.com/50719/1650687796-post5.jpg",
@@ -257,7 +256,7 @@ export const StorieItems: Story[] = [
         createdAt: new Date(),
     },
     {
-        id: useId.toString(),
+        id: "e3ed8484",
         title: "The first post",
         description: "This is the first post",
         image: "https://www.datocms-assets.com/50719/1650687800-post6.jpg",
@@ -267,7 +266,7 @@ export const StorieItems: Story[] = [
         createdAt: new Date(),
     },
     {
-        id: useId.toString(),
+        id: "852df46b",
         title: "The first post",
         description: "This is the first post",
         image: "https://www.datocms-assets.com/50719/1650688308-post8.jpg",
@@ -277,7 +276,7 @@ export const StorieItems: Story[] = [
         createdAt: new Date(),
     },
     {
-        id: useId.toString(),
+        id: "26141c2d",
         title: "The first post",
         description: "This is the first post",
         image: "https://www.datocms-assets.com/50719/1650687805-post7.jpg",
@@ -287,7 +286,7 @@ export const StorieItems: Story[] = [
         createdAt: new Date(),
     },
     {
-        id: useId.toString(),
+        id: "5358c1fb",
         title: "The first post",
         description: "This is the first post",
         image: "https://www.datocms-assets.com/50719/1650691741-post9.jpg",
