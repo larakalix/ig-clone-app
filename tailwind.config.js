@@ -15,7 +15,7 @@ module.exports = {
             colors: {
                 "pink": "#EA4C89",
                 "nav-gray": "#F9F9F9",
-                "item-black": "#242424",
+                "item-black": "#262626",
             },
         },
     },

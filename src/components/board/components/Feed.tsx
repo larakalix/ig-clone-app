@@ -1,7 +1,8 @@
-import { StorieItems } from "../../../data/data";
+import Link from "next/link";
+import { FeedItems } from "../../../data/data";
 import { Story } from "../../../models/Stories";
 import { Heading } from "../../utils/heading/Heading";
-import { StoryBox } from "./StoryBox/StoryBox";
+import { StoryBox } from "../../utils/feed/StoryBox";
 
 export const Feed = () => {
     return (
@@ -9,8 +10,13 @@ export const Feed = () => {
             <Heading text="Feed" />
 
             <div className="masonry masonry-1 sm:md:masonry-1 lg:masonry-2 xl:masonry-3 2xl:masonry-4">
-                {StorieItems.map(({ id, ...props }: Story) => (
-                    <StoryBox key={id} id={id} {...props} />
+                {FeedItems.slice(0, 9).map(({ id, user, ...props }: Story) => (
+                    <StoryBox
+                        key={`board-story-${id}`}
+                        id={id}
+                        user={user}
+                        {...props}
+                    />
                 ))}
             </div>
         </div>

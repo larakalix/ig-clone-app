@@ -1,7 +1,7 @@
 import { Users } from "../../../data/data";
 import { User } from "../../../models/Users";
 import { Heading } from "../../utils/heading/Heading";
-import { UserCircle } from "../../utils/user-circle/UserCircle";
+import { UserCircle } from "../../utils/user/UserCircle";
 import { EmblaCarousel } from "./Carousel";
 
 export const Stories = () => {

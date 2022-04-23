@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { CgMenu, CgClose } from "react-icons/cg";
+import { Users } from "../../../data/data";
 import { NavItems, SessionActions, UserBadge } from "./components";
 import { Logo } from "./components/Logo";
 
@@ -32,7 +33,7 @@ export const Navbar = () => {
             >
                 <Logo />
 
-                <UserBadge />
+                <UserBadge user={Users[0]} />
 
                 <NavItems />
 

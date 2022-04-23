@@ -46,7 +46,7 @@ export const NavbarItems: NavItem[] = [
 ];
 
 export const Users: User[] = [
-    // 0
+    // 0 - ukikalix
     {
         id: "ukikalix",
         isVerified: false,
@@ -58,7 +58,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650648908-ukikalix.jpg?auto=format&w=300",
     },
-    // 1
+    // 1 - soymemovillegas
     {
         id: "soymemovillegas",
         isVerified: true,
@@ -94,7 +94,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650648621-ofmonstersandmen.jpg?auto=format&w=300",
     },
-    // 4
+    // 4 - ninja
     {
         id: "ninja",
         isVerified: true,
@@ -118,7 +118,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650648998-uixnerd.jpg?auto=format&w=300",
     },
-    // 6
+    // 6 - alexamansour
     {
         id: "alexamansour",
         isVerified: true,
@@ -142,7 +142,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650649195-fortnite.jpg?auto=format&w=300",
     },
-    // 8
+    // 8 - briloveschick
     {
         id: "briloveschick",
         isVerified: false,
@@ -154,7 +154,7 @@ export const Users: User[] = [
         thumbnail:
             "https://www.datocms-assets.com/50719/1650649279-briloveschick.jpg?auto=format&w=300",
     },
-    // 9
+    // 9 - fcbarcelona
     {
         id: "fcbarcelona",
         isVerified: true,
@@ -204,7 +204,8 @@ export const Users: User[] = [
     },
 ];
 
-export const StorieItems: Story[] = [
+export const FeedItems: Story[] = [
+    // 4 - ninja
     {
         id: "f4139254",
         title: "The first post",
@@ -212,9 +213,10 @@ export const StorieItems: Story[] = [
         image: "https://www.datocms-assets.com/50719/1650687778-post1.jpg",
         likes: 230981,
         comments: 1656,
-        user: Users[5],
+        user: Users[4],
         createdAt: new Date(),
     },
+    // 6 - alexamansour
     {
         id: "7d1a4433",
         title: "The first post",
@@ -225,6 +227,7 @@ export const StorieItems: Story[] = [
         user: Users[6],
         createdAt: new Date(),
     },
+    // 9 - fcbarcelona
     {
         id: "920df3de",
         title: "The first post",
@@ -255,6 +258,7 @@ export const StorieItems: Story[] = [
         user: Users[5],
         createdAt: new Date(),
     },
+    // 8 - briloveschick
     {
         id: "e3ed8484",
         title: "The first post",
@@ -262,9 +266,10 @@ export const StorieItems: Story[] = [
         image: "https://www.datocms-assets.com/50719/1650687800-post6.jpg",
         likes: 2123,
         comments: 34,
-        user: Users[12],
+        user: Users[8],
         createdAt: new Date(),
     },
+    // 1 - soymemovillegas
     {
         id: "852df46b",
         title: "The first post",
@@ -285,6 +290,7 @@ export const StorieItems: Story[] = [
         user: Users[12],
         createdAt: new Date(),
     },
+    // 0 - ukikalix
     {
         id: "5358c1fb",
         title: "The first post",
@@ -292,6 +298,105 @@ export const StorieItems: Story[] = [
         image: "https://www.datocms-assets.com/50719/1650691741-post9.jpg",
         likes: 23,
         comments: 1,
+        user: Users[0],
+        createdAt: new Date(),
+    },
+    // 4 - ninja
+    {
+        id: "f4139544",
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650702324-post10.jpg",
+        likes: 86178,
+        comments: 274,
+        user: Users[4],
+        createdAt: new Date(),
+    },
+    // 6 - alexamansour
+    {
+        id: "5d1a1133",
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650702397-post11.jpg",
+        likes: 12311,
+        comments: 126,
+        user: Users[6],
+        createdAt: new Date(),
+    },
+    // 6 - alexamansour
+    {
+        id: "123a4433",
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650702615-post12.jpg",
+        likes: 46771,
+        comments: 212,
+        user: Users[6],
+        createdAt: new Date(),
+    },
+    // 1 - soymemovillegas
+    {
+        id: "852df46c",
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650702739-post13.jpg",
+        likes: 10001,
+        comments: 82,
+        user: Users[1],
+        createdAt: new Date(),
+    },
+    // 8 - briloveschick
+    {
+        id: "a12dxx84",
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650703081-post14.jpg",
+        likes: 1225,
+        comments: 18,
+        user: Users[8],
+        createdAt: new Date(),
+    },
+    // 8 - briloveschick
+    {
+        id: "65sd8484",
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650703126-post15.jpg",
+        likes: 4256,
+        comments: 179,
+        user: Users[8],
+        createdAt: new Date(),
+    },
+    // 0 - ukikalix
+    {
+        id: "5gf89990",
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650703244-post16.jpg",
+        likes: 23,
+        comments: 1,
+        user: Users[0],
+        createdAt: new Date(),
+    },
+    // 9 - fcbarcelona
+    {
+        id: "fc0dffd1",
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650703501-post18.jpg",
+        likes: 121333,
+        comments: 223,
+        user: Users[9],
+        createdAt: new Date(),
+    },
+    // 0 - ukikalix
+    {
+        id: "5gf89991",
+        title: "The first post",
+        description: "This is the first post",
+        image: "https://www.datocms-assets.com/50719/1650703404-post17.jpg",
+        likes: 30,
+        comments: 0,
         user: Users[0],
         createdAt: new Date(),
     },

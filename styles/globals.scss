@@ -26,6 +26,14 @@
             column-gap: 1.2em;
             column-count: 4;
         }
+        .masonry-5 {
+            column-gap: 1em;
+            column-count: 5;
+        }
+        .masonry-6 {
+            column-gap: 1em;
+            column-count: 6;
+        }
         .break-inside {
             break-inside: avoid;
         }
