@@ -11,11 +11,9 @@ function MyApp({ Component, pageProps }: PageProps) {
         <div className="bg-white">
             <Navbar />
 
-            <main>
+            <main className="bg-nav-gray">
                 <Component {...pageProps} />
             </main>
-
-            <Footer />
         </div>
     );
 }

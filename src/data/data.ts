@@ -1,4 +1,48 @@
+import {
+    BiGridAlt,
+    BiBarChartAlt2,
+    BiBell,
+    BiEnvelope,
+    BiSlider,
+    BiSearch,
+} from "react-icons/bi";
+import { NavItem } from "../models/NavItem";
 import { User } from "../models/Users";
+
+export const NavbarItems: NavItem[] = [
+    {
+        label: "Feed",
+        route: "/",
+        icon: BiGridAlt,
+    },
+    {
+        label: "Explore",
+        route: "/explore",
+        icon: BiSearch,
+    },
+    {
+        label: "Notifications",
+        route: "/notifications",
+        icon: BiBell,
+        counter: 4,
+    },
+    {
+        label: "Messages",
+        route: "/inbox",
+        icon: BiEnvelope,
+        counter: 10,
+    },
+    {
+        label: "Stats",
+        route: "/stats",
+        icon: BiBarChartAlt2,
+    },
+    {
+        label: "Settings",
+        route: "/settings",
+        icon: BiSlider,
+    },
+];
 
 export const Users: User[] = [
     {

@@ -1,5 +1,5 @@
 module.exports = {
-  mode: "jit",
+    mode: "jit",
     content: [
         "./public/**/*.html",
         "./src/**/*.{js,jsx,ts,tsx,vue}",
@@ -14,9 +14,11 @@ module.exports = {
         extend: {
             colors: {
                 "pink": "#EA4C89",
-            }
+                "nav-gray": "#F9F9F9",
+                "item-black": "#242424",
+            },
         },
     },
     plugins: [],
-    darkMode: 'class',
-}
+    darkMode: "class",
+};

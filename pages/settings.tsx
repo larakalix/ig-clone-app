@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { BoardScreen } from "../src/pages/board/BoardScreen";
+import { SettingsScreen } from "../src/pages/settings/SettingsScreen";
 
-const Home: NextPage = () => {
+const Settings: NextPage = () => {
     return (
         <>
             <Head>
@@ -14,9 +14,9 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <BoardScreen />
+            <SettingsScreen />
         </>
     );
 };
 
-export default Home;
+export default Settings;

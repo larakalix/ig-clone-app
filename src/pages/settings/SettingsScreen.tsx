@@ -1,10 +1,9 @@
-import { Board } from "../../components/board";
 import { PageWrapper } from "../../components/layout/PageWrapper/PageWrapper";
 
-export const BoardScreen = () => {
+export const SettingsScreen = () => {
     return (
         <PageWrapper>
-            <Board />
+            <h1>SettingsScreen</h1>
         </PageWrapper>
     );
 };
