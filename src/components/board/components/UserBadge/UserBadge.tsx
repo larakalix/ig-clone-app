@@ -1,7 +1,9 @@
-import Image from "next/image";
 import { useEffect, useState } from "react";
-import { Users } from "../../../../../data/data";
-import { User } from "../../../../../models/Users";
+import { Users } from "../../../../data/data";
+import { Size } from "../../../../models/Size";
+import { User } from "../../../../models/Users";
+import { UserCircle } from "../../../utils/user-circle/UserCircle";
+import { NotUser } from "./components/NotUser";
 import { UserInfoItem } from "./components/UserInfoItem";
 
 export const UserBadge = () => {
@@ -11,24 +13,11 @@ export const UserBadge = () => {
         setUser(Users[0]);
     }, []);
 
-    if (user === undefined)
-        return (
-            <div>
-                <h1>No user logged</h1>
-            </div>
-        );
+    if (user === undefined) return <NotUser />;
 
     return (
         <div className="flex flex-col items-center justify-center">
-            <div className="rounded-full border-2 border-pink flex items-center justify-center p-2">
-                <Image
-                    src={user.thumbnail}
-                    alt={user.id}
-                    width="80"
-                    height="80"
-                    className="rounded-full"
-                />
-            </div>
+            <UserCircle alt={user.id} thumbnail={user.thumbnail} type={Size.large} />
 
             <h2 className="text-gray-500 mt-2 text-[0.8rem]">@{user.id}</h2>
 
