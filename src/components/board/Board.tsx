@@ -1,11 +1,16 @@
-import { Stories, Feed } from "./components"
+import { Logo } from "../layout/Navbar/components/Logo";
+import { Stories, Feed } from "./components";
 
 export const Board = () => {
-  return (
-    <div>
-        <Stories />
+    return (
+        <div>
+            <div className="flex md:hidden">
+                <Logo />
+            </div>
 
-        <Feed />
-    </div>
-  )
-}
+            <Stories />
+
+            <Feed />
+        </div>
+    );
+};
