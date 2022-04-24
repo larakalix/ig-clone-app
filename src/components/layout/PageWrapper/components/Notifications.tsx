@@ -8,12 +8,12 @@ export const Notifications = () => {
                     <ul className="flex items-center space-x-8">
                         <li>
                             <a href="#!">
-                                <BiBell className="text-[1.2rem] md:text-[1.4rem]" />
+                                <BiBell className="text-black dark:text-white text-[1.2rem] md:text-[1.4rem]" />
                             </a>
                         </li>
                         <li>
                             <a href="#!">
-                                <BiEnvelope className="text-[1.2rem] md:text-[1.4rem]" />
+                                <BiEnvelope className="text-black dark:text-white text-[1.2rem] md:text-[1.4rem]" />
                             </a>
                         </li>
                     </ul>

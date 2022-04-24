@@ -13,10 +13,12 @@ module.exports = {
         },
         extend: {
             colors: {
-                "pink": "#EA4C89",
+                "pink": "#E2336B",
                 "nav-gray": "#F9F9F9",
+                "dar-nav-gray": "#3C3F51",
                 "item-black": "#262626",
-                "oramge": "#FCA649",
+                "oramge": "#FCAC46",
+                "dark-gray": "#282A34",
             },
         },
     },

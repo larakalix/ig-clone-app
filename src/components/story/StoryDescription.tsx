@@ -21,10 +21,10 @@ export const StoryDescription = ({ story }: { story: Story }) => {
             </Link>
 
             <div className="ml-4 mt-2 w-full font-noto">
-                <span className="flex items-center font-bold">
+                <span className="flex items-center font-bold text-item-black dark:text-gray-50">
                     {user.id} {user.isVerified && <UserVerified />}
                 </span>
-                <p className="flex items-center font-medium">
+                <p className="flex items-center font-medium text-black dark:text-white">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Cum, culpa. Lorem, ipsum dolor sit amet consectetur
                     adipisicing elit. Cum, culpa. Lorem, ipsum dolor sit amet

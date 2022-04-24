@@ -19,8 +19,10 @@ export const UserInfoItem = ({
 
     return (
         <li className={`text-center ${styles} p-4 font-noto ${className}`}>
-            <h4 className="text-[0.9rem] font-semibold">{info}</h4>
-            <span className="text-gray-500 text-[0.8rem] font-medium">
+            <h4 className="text-[0.9rem] font-semibold text-black dark:text-white">
+                {info}
+            </h4>
+            <span className="text-gray-500 dark:text-gray-300 text-[0.8rem] font-medium">
                 {label}
             </span>
         </li>

@@ -28,8 +28,8 @@ export const UserBadge = ({ user }: Props) => {
                 </a>
             </Link>
 
-            <h1 className="font-noto font-bold mt-2">{ name }</h1>
-            <h2 className="text-gray-500 text-[0.8rem] font-noto font-medium">
+            <h1 className="font-noto font-bold mt-2 dark:text-white">{ name }</h1>
+            <h2 className="text-gray-500 dark:text-gray-100 text-[0.8rem] font-noto font-medium">
                 @{id}
             </h2>
 

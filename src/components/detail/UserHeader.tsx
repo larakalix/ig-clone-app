@@ -14,7 +14,7 @@ export const UserHeader = ({ user }: { user: User }) => {
             <UserCircle alt={id} thumbnail={thumbnail} type={Size.large} />
             
             <div className="ml-4 md:ml-12">
-                <h2 className="flex items-center text-[0.9rem] md:text-[1rem] font-noto font-medium text-gray-900">
+                <h2 className="flex items-center text-[0.9rem] md:text-[1rem] font-noto font-medium text-gray-900 dark:text-gray-50">
                     {id} {isVerified && <UserVerified />}
                 </h2>
                 <ul className="flex flex-row items-center justify-center max-w-full my-1 md:my-6">
@@ -28,7 +28,7 @@ export const UserHeader = ({ user }: { user: User }) => {
                         label="followed"
                     />
                 </ul>
-                <h1 className="text-[1rem] md:text-[1.2rem] font-noto font-bold text-item-black">
+                <h1 className="text-[1rem] md:text-[1.2rem] font-noto font-bold text-item-black dark:text-white">
                     {name}
                 </h1>
                 <p></p>

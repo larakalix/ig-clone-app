@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { ErrorScreen } from "../src/pages/error/ErrorScreen";
 
-const Error: NextPage = () => {
+const FourOhFour: NextPage = () => {
     return (
         <>
             <Head>
@@ -19,4 +19,4 @@ const Error: NextPage = () => {
     );
 };
 
-export default Error;
+export default FourOhFour;

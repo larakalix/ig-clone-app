@@ -18,7 +18,7 @@ export const WrapperHeader = ({
 
     return (
         <>
-            <div className="flex md:hidden w-full">
+            <div className="flex justify-center md:hidden w-full">
                 <Logo />
             </div>
             <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center lg:justify-between mb-4 lg:mb-12">

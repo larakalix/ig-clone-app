@@ -54,7 +54,7 @@ export const StoryBox = ({
                             type={Size.small}
                             className="w-[3.4rem] h-auto"
                         />
-                        <span className="ml-4 font-noto font-bold first-letter:uppercase">
+                        <span className="ml-4 font-noto font-bold first-letter:uppercase text-item-black dark:text-gray-50">
                             {id}
                         </span>
                     </a>
