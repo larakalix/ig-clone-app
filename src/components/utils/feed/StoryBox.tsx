@@ -45,9 +45,9 @@ export const StoryBox = ({
                     </a>
                 </Link>
             </div>
-            <div className="flex items-center justify-between">
+            <div className="flex flex-row flex-wrap items-center justify-between">
                 <Link key={`story-user-${id}`} href={`/p/${user.id}`}>
-                    <a className="flex items-center justify-center cursor-pointer">
+                    <a className="flex items-center justify-center cursor-pointer mb-3 md:mb-0">
                         <UserCircle
                             thumbnail={thumbnail}
                             alt={id}
@@ -59,18 +59,13 @@ export const StoryBox = ({
                         </span>
                     </a>
                 </Link>
-                <div>
-                    <ul className="flex items-center justify-center">
-                        <StoryBoxInfo
-                            value={parseThousand(likes)}
-                            icon={FiHeart}
-                        />
-                        <StoryBoxInfo
-                            value={parseThousand(comments)}
-                            icon={FiMessageCircle}
-                        />
-                    </ul>
-                </div>
+                <ul className="flex items-center justify-center">
+                    <StoryBoxInfo value={parseThousand(likes)} icon={FiHeart} />
+                    <StoryBoxInfo
+                        value={parseThousand(comments)}
+                        icon={FiMessageCircle}
+                    />
+                </ul>
             </div>
         </div>
     );

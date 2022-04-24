@@ -23,8 +23,8 @@ export const UserFeeds = ({ feeds }: Props) => {
     return (
         <div className="w-full mt-8">
             <Heading text="Feeds" type={Size.large} />
-
-            <div className="masonry masonry-2 sm:md:masonry-2 lg:masonry-2 xl:masonry-4 2xl:masonry-4">
+            
+            <div className="masonry masonry-2 sm:md:masonry-2 lg:masonry-2 xl:masonry-4 2xl:masonry-4 max-w-full">
                 {feeds.map(({ id, user, ...props }: Story) => (
                     <StoryBox
                         id={id}
