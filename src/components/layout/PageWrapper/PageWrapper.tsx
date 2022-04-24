@@ -9,7 +9,7 @@ export const PageWrapper = ({
 }: PageWrapperProps) => {
     return (
         <motion.div
-            className="min-h-screen flex flex-col items-start justify-start ml-0 md:ml-[35vw] lg:ml-[25vw] xl:ml-[20vw] p-10 rounded-l-3xl bg-white dark:bg-dark-gray drop-shadow-xl"
+            className="min-h-screen flex flex-col items-start justify-start ml-0 md:ml-[35vw] lg:ml-[25vw] xl:ml-[20vw] p-10 rounded-none md:rounded-l-3xl bg-white dark:bg-dark-gray drop-shadow-xl"
             {...config}
         >
             <WrapperHeader {...{ hideSearchbar, hideHeader }} />
