@@ -29,7 +29,7 @@ export const Navbar = () => {
             <div
                 className={`bg-nav-gray dark:bg-dar-nav-gray fixed h-screen p-10 flex w-full md:w-[35vw] lg:w-[25vw] xl:w-[20vw] flex-col items-center ${
                     open ? "left-0" : "left-[100%]"
-                } md:left-[unset] z-40`}
+                } md:left-[unset] z-40 transition-colors`}
             >
                 <Logo />
 

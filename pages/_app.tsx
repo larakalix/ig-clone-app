@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: PageProps) {
                 <Navbar />
 
                 <AnimatePresence exitBeforeEnter>
-                    <main className="bg-nav-gray dark:bg-dar-nav-gray">
+                    <main className="bg-nav-gray dark:bg-dar-nav-gray transition-colors">
                         <Component {...pageProps} />
                     </main>
                 </AnimatePresence>
