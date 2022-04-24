@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { WrapperHeaderProps } from "../../../../models/PageWrapper";
 import { Logo } from "../../Navbar/components/Logo";
 import { Notifications } from "./Notifications";
@@ -7,14 +8,26 @@ export const WrapperHeader = ({
     hideSearchbar,
     hideHeader,
 }: WrapperHeaderProps) => {
+    const searchbarStyles = clsx({
+        ["hidden md:flex"]: hideSearchbar,
+    });
+
+    const headerStyles = clsx({
+        ["hidden md:flex"]: hideHeader,
+    });
+
     return (
         <>
             <div className="flex md:hidden w-full">
                 <Logo />
             </div>
             <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center lg:justify-between mb-4 lg:mb-12">
-                {!hideSearchbar && <Searchbar />}
-                {!hideHeader && <Notifications />}
+                <div className={`${searchbarStyles}`}>
+                    <Searchbar />
+                </div>
+                <div className={`${headerStyles}`}>
+                    <Notifications />
+                </div>
             </div>
         </>
     );
