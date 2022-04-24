@@ -1,11 +1,7 @@
 import "../styles/globals.scss";
-import type { AppProps } from "next/app";
 import { AnimatePresence } from "framer-motion";
-import { Navbar, Footer } from "../src/components/layout";
-
-interface PageProps extends AppProps {
-    headerTitle: string;
-}
+import { Navbar } from "../src/components/layout";
+import { PageProps } from "../src/models/PageProps";
 
 function MyApp({ Component, pageProps }: PageProps) {
     return (

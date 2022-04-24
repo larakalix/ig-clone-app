@@ -7,7 +7,7 @@ export const PostScreen = ({ story }: { story: Story | undefined }) => {
     if (!story) return <NoFoundData text="User story found" />;
 
     return (
-        <PageWrapper>
+        <PageWrapper hideSearchbar>
             <section className="w-full flex flex-wrap items-start">
                 <StoryHeader story={story} />
 

@@ -12,7 +12,6 @@ const Post: NextPage = () => {
 
     useEffect(() => {
         if (isReady) {
-            console.log(query);
             const { id } = query;
             setStory(FeedItems.find((story) => story.id === id));
         }

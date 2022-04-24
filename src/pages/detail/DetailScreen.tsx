@@ -8,7 +8,7 @@ export const DetailScreen = ({ user }: { user: User | undefined }) => {
     if (!user) return <NoFoundData text="User not found" />;
 
     return (
-        <PageWrapper>
+        <PageWrapper hideSearchbar hideHeader>
             <section className="w-full flex flex-col items-start">
                 <UserHeader user={user} />
 
