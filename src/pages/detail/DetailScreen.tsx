@@ -9,13 +9,13 @@ export const DetailScreen = ({ user }: { user: User | undefined }) => {
 
     return (
         <PageWrapper hideSearchbar hideHeader>
-            <section className="w-full flex flex-col items-start">
+            <div className="w-full flex flex-col items-start">
                 <UserHeader user={user} />
 
                 <UserFeeds
                     feeds={FeedItems.filter((feed) => feed.user.id === user.id)}
                 />
-            </section>
+            </div>
         </PageWrapper>
     );
 };
