@@ -28,7 +28,7 @@ export const StoryBox = ({
                             className="w-full rounded-2xl"
                         />
 
-                        <ul className="flex items-center justify-center absolute w-full opacity-0 group-hover:opacity-100 top-[12rem] bottom-0 left-0 right-0 bg-gradient-to-t from-pink to-transparent pt-20">
+                        <ul className="flex items-center justify-center absolute w-full opacity-0 group-hover:opacity-100 top-[40%] bottom-[0] left-0 right-0 bg-gradient-to-t from-pink to-transparent pt-20">
                             <StoryBoxInfo
                                 value={parseThousand(likes)}
                                 icon={FiHeart}
