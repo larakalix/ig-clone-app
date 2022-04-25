@@ -29,7 +29,7 @@ export const NavbarItems: NavItem[] = [
     },
     {
         label: "Messages",
-        route: "/inbox",
+        route: "/messages",
         icon: BiEnvelope,
         counter: 10,
     },

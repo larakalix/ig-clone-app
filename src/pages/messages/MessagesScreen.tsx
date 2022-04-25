@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { PageWrapper } from "../../components/layout/PageWrapper/PageWrapper";
 
-export const SettingsScreen = () => {
+export const MessagesScreen = () => {
     return (
         <PageWrapper>
             <div className="h-[70vh] w-full flex items-center justify-center">

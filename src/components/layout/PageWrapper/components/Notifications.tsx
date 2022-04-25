@@ -21,7 +21,7 @@ export const Notifications = () => {
                 <li>
                     <a
                         href="#!"
-                        className="py-2 px-4 text-[0.8rem] font-noto flex items-center bg-gradient-to-r from-pink via-[#f17556] to-oramge rounded-lg text-white font-medium"
+                        className="py-2 px-4 text-[0.8rem] font-noto font-semibold flex items-center bg-gradient-to-r from-pink via-[#f17556] to-oramge rounded-lg text-white"
                     >
                         <span className="bg-white/20 p-1 rounded-full mr-2">
                             <BiPlus className="text-white text-[1rem] font-bold" />
